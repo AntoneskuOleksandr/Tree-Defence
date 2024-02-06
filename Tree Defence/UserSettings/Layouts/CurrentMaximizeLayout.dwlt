@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 200}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 9316
+  controlID: 59
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -87,7 +87,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
+    m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -142,7 +142,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 9317
+  controlID: 60
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -168,7 +168,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 8096}
   vertical: 0
-  controlID: 9318
+  controlID: 61
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -227,23 +227,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 94600000
-      m_LastClickedID: 24724
-      m_ExpandedIDs: 9cf8ffff32fbffff30620000
+      m_SelectedIDs: 64e6ffff
+      m_LastClickedID: -6556
+      m_ExpandedIDs: 32fbffff425f0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: PlayField
-        m_OriginalName: PlayField
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 25136
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 5}
       m_SearchString: 
@@ -272,8 +272,8 @@ MonoBehaviour:
     y: 0
     width: 722
     height: 739
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 8}
   m_Panes:
   - {fileID: 8}
@@ -399,7 +399,7 @@ MonoBehaviour:
       containerId: overlay-container--right
       floating: 0
       collapsed: 0
-      displayed: 1
+      displayed: 0
       snapOffset: {x: 0, y: 0}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
@@ -538,9 +538,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.24729629, y: 3.4526122, z: -2.0271952}
+    m_Target: {x: -2.4900193, y: 7.1660547, z: -4.4548197}
     speed: 2
-    m_Value: {x: 0.24729629, y: 3.4526122, z: -2.0271952}
+    m_Value: {x: -2.4900193, y: 7.1660547, z: -4.4548197}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -582,18 +582,18 @@ MonoBehaviour:
         m_Value: 0
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
-      m_Size: {x: 0, y: 0}
+      m_Size: {x: 1, y: 1}
     m_ShowGrid: 1
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.45528743, y: 0.013333435, z: -0.006861558, w: 0.89008677}
+    m_Target: {x: 0.46809444, y: -0.060883753, z: 0.03235057, w: 0.8809823}
     speed: 2
-    m_Value: {x: 0.4553407, y: 0.013334995, z: -0.006862361, w: 0.8901909}
+    m_Value: {x: 0.46809548, y: -0.060883887, z: 0.03235064, w: 0.88098425}
   m_Size:
-    m_Target: 4.072129
+    m_Target: 0.8660254
     speed: 2
-    m_Value: 4.072129
+    m_Value: 0.8660254
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -611,7 +611,7 @@ MonoBehaviour:
     m_FarClip: 10000
     m_DynamicClip: 1
     m_OcclusionCulling: 0
-  m_LastSceneViewRotation: {x: 0, y: 0, z: 0, w: 0}
+  m_LastSceneViewRotation: {x: 0.45528743, y: 0.013333435, z: -0.006861558, w: 0.89008677}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
@@ -713,22 +713,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Tree Defence/Environment/Grass/Materials
+    - Assets/Tree Defence/Prefabs/Plants
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Tree Defence/Environment/Grass/Materials
+  - Assets/Tree Defence/Prefabs/Plants
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Tree Defence\Tree-Defence\Tree Defence
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 81}
-    m_SelectedIDs: 685e0000
-    m_LastClickedID: 24168
-    m_ExpandedIDs: 00000000425e0000445e0000465e0000485e00004a5e00004c5e00004e5e0000525e0000585e000000ca9a3b
+    m_SelectedIDs: c4620000
+    m_LastClickedID: 25284
+    m_ExpandedIDs: 00000000a4620000a6620000a8620000aa620000ac620000ae620000b0620000b2620000c262000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -756,7 +756,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000425e0000445e0000465e0000485e00004a5e00004c5e00004e5e0000525e000000ca9a3b
+    m_ExpandedIDs: 00000000a4620000a6620000a8620000aa620000ac620000ae620000b0620000b2620000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -781,8 +781,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 94600000
-    m_LastClickedInstanceID: 24724
+    m_SelectedInstanceIDs: 64e6ffff
+    m_LastClickedInstanceID: -6556
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000bc5a0000
     m_RenameOverlay:
@@ -860,8 +860,8 @@ MonoBehaviour:
     y: 0
     width: 318
     height: 987
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}

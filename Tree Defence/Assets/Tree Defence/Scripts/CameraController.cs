@@ -9,16 +9,20 @@ public class CameraController : MonoBehaviour
     public Vector2 panLimit;
     public Vector2 zoomLimit;
 
+    public bool usePan = true;
+    public bool useZoom = true;
+    public bool useMouse2 = true;
+
     void Update()
     {
         Vector3 pos = transform.position;
 
-        if (Input.GetMouseButton(2)) // Middle Mouse Button
+        if (useMouse2 && Input.GetMouseButton(2)) // Middle Mouse Button
         {
             pos.x -= Input.GetAxis("Mouse X") * mouse2Speed * Time.deltaTime;
             pos.z -= Input.GetAxis("Mouse Y") * mouse2Speed * Time.deltaTime;
         }
-        else
+        else if (usePan)
         {
             if (Input.GetKey("w") || Input.mousePosition.y >= Screen.height - panBorderThickness)
             {
@@ -43,13 +47,16 @@ public class CameraController : MonoBehaviour
             }
         }
 
-        if (Input.GetAxis("Mouse ScrollWheel") > 0f)
+        if (useZoom)
         {
-            pos.y -= zoomSpeed * Time.deltaTime;
-        }
-        if (Input.GetAxis("Mouse ScrollWheel") < 0f)
-        {
-            pos.y += zoomSpeed * Time.deltaTime;
+            if (Input.GetAxis("Mouse ScrollWheel") > 0f)
+            {
+                pos.y -= zoomSpeed * Time.deltaTime;
+            }
+            if (Input.GetAxis("Mouse ScrollWheel") < 0f)
+            {
+                pos.y += zoomSpeed * Time.deltaTime;
+            }
         }
 
         pos.x = Mathf.Clamp(pos.x, -panLimit.x, panLimit.x);
